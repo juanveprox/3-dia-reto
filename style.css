@@ -1,0 +1,288 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    font-family: "Poppins", sans-serif;
+}
+
+.header{
+    background-color: #653c76e1;
+    position: fixed;
+    width: 100%;
+}
+
+.header__contenedor{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 5rem;
+    padding: 0 4rem;
+}
+
+.header__contenedor__logo{
+    width: 5%;
+}
+
+.header__contenedor__lista{
+    display: flex;
+    column-gap: 1rem;
+    list-style: none;
+}
+
+.contenedor__lista__link{
+    color: #FFF;
+    font-size: 1.3rem;
+    text-decoration: none;
+    transition: all .5s cubic-bezier(.72,.2,.66,1.17);
+}
+
+.contenedor__lista__link:hover{
+    color: #a89797;
+    text-decoration: overline;
+}
+
+.main{
+    padding: 6rem 0 0;
+}
+
+.seccion-1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 4rem;
+    padding: 0 5rem 2rem;
+    scroll-margin-top: 6rem;
+}
+
+.seccion-1__imagen{
+    width: 50%;
+}
+
+.seccion-2{
+    padding: 3rem 5rem;
+    background-color: #41c3a4;
+    color: #FFF;
+    scroll-margin-top: 5rem;
+}
+
+.seccion-2__titulo{
+    text-align: center
+}
+
+.seccion-2__linea,.seccion-3__linea,.seccion-4__linea,.seccion-5__linea,.seccion-6__linea{
+    width: 15%;
+    margin: 2rem auto;
+    border: 2px solid #74827F;
+}
+
+.seccion-2__parrafo{
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.seccion-2__contenedor{
+    display: flex;
+    column-gap: 3rem;
+}
+
+.seccion-2__contenedor__item{
+    text-align: center;
+}
+
+.item__imagen{
+    width: 4rem;
+    margin: 1rem 0;
+}
+
+
+.seccion-3{
+    background-color: #E5F0F6;
+    padding: 3rem 5rem;
+    
+    scroll-margin-top: 5rem;
+}
+
+.seccion-3__titulo{
+    text-align: center;
+}
+
+.seccion-3__parrafo{
+    margin: 2rem 0;
+    text-align: center;
+}
+
+.seccion-3__contenedor{
+    margin-top:2rem ;
+    display: flex;
+}
+
+.seccion-3__contenedor__item{
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.item__circulo{
+    width: 12rem;
+    height: 12rem;
+    background-color: #878689;
+    border-radius: 50%;
+}
+
+.item__parrafo{
+    text-align: center;
+}
+
+.item__contenedor-logo{
+    margin: .5rem auto;
+}
+
+.item__contenedor-logo__items{
+    width: 3rem;
+}
+
+.seccion-4{
+    padding: 3rem 5rem;
+    scroll-margin-top: 5rem;
+}
+
+.seccion-4__titulo{
+    text-align: center;
+}
+
+.seccion-4__parrafo{
+    text-align: center;
+}
+
+.seccion-4__contenedor{
+    margin-top: 3rem;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.seccion-4__contenedor__item{
+    padding: 1rem;
+    color: #FFF;
+    width: 20%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.seccion-4__contenedor__item--1{
+    background-color: #41BAE7;
+}
+
+.seccion-4__contenedor__item--2{
+    background-color: #D84680;
+}
+
+.seccion-4__contenedor__item--3{
+    background-color: #56CDB3;
+}
+
+.seccion-4__contenedor__item--4{
+    background-color: #EB7E4A;
+}
+
+.seccion-5{
+    padding: 3rem 5rem;
+    background-color: #F1D393;
+    scroll-margin-top: 5rem;
+}
+
+.seccion-5__titulo{
+    text-align: center;
+}
+
+.seccion-5__parrafo{
+    text-align: center;
+}
+
+.seccion-5__contenedor{
+    margin-top: 2rem;
+    display: grid;
+    grid-template-columns: 40% 40% ;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+
+.contenedor-de-imagen{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 1rem;
+}
+
+.contenedor-de-imagen__imagen{
+    width: 100%;
+}
+
+.contenedor-de-imagen__texto{
+    font-weight: 600;
+}
+
+.seccion-6{
+    padding: 3rem 5rem;
+    background-color: #3A5194;
+    color: #fff;
+}
+
+.seccion-6__titulo{
+    text-align: center;
+}
+
+.seccion-6__parrafo{
+    text-align: center;
+}
+
+.seccion-6__formulario{
+    margin: 0 auto;
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+}
+
+.formulario__input{
+    margin: 1rem 0 .4rem;
+}
+
+.formulario__label{
+    width: 45%;
+    height: 2.5rem;
+}
+
+.formulario__textarea{
+    width: 43rem;
+    height: 5rem;
+    resize: none;
+}
+
+.formulario__boton{
+    width: 30%;
+    height: 2rem;
+    margin: 2rem 0 1rem;
+    cursor: pointer;
+    background-color: #ece6e6;
+    border: none;
+}
+
+.formulario__boton:hover{
+    background-color: #8f8c8c;
+    color: #FFF;
+}
+
+.footer{
+    background-color: #787B8F;
+    padding: 1rem 5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+
+.footer__img{
+    width: 4rem;
+}
